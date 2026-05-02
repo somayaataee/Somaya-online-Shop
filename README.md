@@ -23,7 +23,7 @@ The **Multi Product Page Website** is a stylish and responsive web project desig
 
 ## 📷 Preview
 ## Screenshots
-![Landing Page Desktop](images/screen.JPG)
+![Landing Page Desktop](images/shot.png)
 
 ## 🚀 Future Improvements
 
