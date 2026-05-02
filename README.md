@@ -34,7 +34,7 @@ The **Multi Product Page Website** is a stylish and responsive web project desig
 
 ##  Deployed (Render)
 
-[🔗 [Open live demo — multi-product-pages.vercel.app](https://multi-product-pages.vercel.app/)]
+[🔗 [Open live demo — multi-product-pages.vercel.app](https://somaya-online-shop.vercel.app/)]
 
 ## 👩‍💻 Author
 
