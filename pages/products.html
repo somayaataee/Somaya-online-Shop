@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <!-- css style -->
+  <link rel="stylesheet" href="../stlyle.css">
+  <title>All Product</title>
+</head>
+<body class="allpage">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="../images/sandal.jpeg" class="card-img-top" alt="..." style="height: 22rem;">
+          <div class="card-body">
+            <p class="card-text">Walk confidently — fashion meets comfort</p>
+            <button class="btn show-details" data-id="1">Shop Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="../images/jelwary.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Shine brighter every day</p>
+           <button class="btn show-details" data-id="2"">Shop Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="../images/schoolbag.jpeg" class="card-img-top" style="height: 22rem;">
+          <div class="card-body">
+            <p class="card-text">Crafted for elegance and everyday use.</p>
+            <button class="btn show-details" data-id="3">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="../images/headphon.jpeg" class="card-img-top" alt="..." style="height: 22rem;">
+          <div class="card-body">
+            <p class="card-text">Because great sound deserves great design</p>
+            <button class="btn show-details" data-id="4">Shop Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="../images/utensils.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Crafted for every delicious moment</p>
+            <button class="btn show-details" data-id="5">Shop Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="../images/fishonbag.jpeg" class="card-img-top" style="height: 22rem;">
+          <div class="card-body">
+            <p class="card-text">Your perfect companion — chic and practical</p>
+            <button class="btn show-details" data-id="6">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="../images/chair.jpeg" class="card-img-top" alt="..." style="height: 22rem;">
+          <div class="card-body">
+            <p class="card-text">Crafted to make every moment cozy</p>
+            <button class="btn show-details" data-id="7">Shop Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="../images/shoes.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Lightweight, trendy, and built to last</p>
+            <button class="btn show-details" data-id="8">Shop Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="../images/jal.jpeg" class="card-img-top" style="height: 22rem;">
+          <div class="card-body">
+            <p class="card-text">Add a touch of sparkle to your style</p>
+            <button class="btn show-details" data-id="9">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+    id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasTitle">Product name</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body text-center">
+      <img id="offcanvasImage" src="" class="img-fluid mb-3" alt="Product image">
+      <p id="offcanvasDescription"></p>
+      <p><strong id="offcanvasPrice"></strong></p>
+    </div>
+  </div>
+  <script src="../myscript.js"></script>
+</body>
+</html>
